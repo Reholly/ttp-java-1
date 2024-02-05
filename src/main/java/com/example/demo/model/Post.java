@@ -22,5 +22,6 @@ public class Post {
     public Post(String text, Date creationDate) {
         this.text = text;
         this.creationDate = creationDate;
+        likes = 0;
     }
 }
